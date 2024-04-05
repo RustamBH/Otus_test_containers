@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/MyProjectsVSCode/OTUS/16_hw/project_List/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate"
+		},
+		{
+			"file" : "C:/MyProjectsVSCode/OTUS/16_hw/project_List/build/_deps/googletest-subbuild/CMakeFiles/b25fd00f37049a262ecf0d6999d27242/googletest-populate.rule"
+		},
+		{
+			"file" : "C:/MyProjectsVSCode/OTUS/16_hw/project_List/build/_deps/googletest-subbuild/CMakeFiles/b16dd464df8b484f7e082ed7ee5bb6fe/googletest-populate-complete.rule"
+		},
+		{
+			"file" : "C:/MyProjectsVSCode/OTUS/16_hw/project_List/build/_deps/googletest-subbuild/CMakeFiles/955981605225884a0f2ecc5ec161e700/googletest-populate-build.rule"
+		},
+		{
+			"file" : "C:/MyProjectsVSCode/OTUS/16_hw/project_List/build/_deps/googletest-subbuild/CMakeFiles/955981605225884a0f2ecc5ec161e700/googletest-populate-configure.rule"
+		},
+		{
+			"file" : "C:/MyProjectsVSCode/OTUS/16_hw/project_List/build/_deps/googletest-subbuild/CMakeFiles/955981605225884a0f2ecc5ec161e700/googletest-populate-download.rule"
+		},
+		{
+			"file" : "C:/MyProjectsVSCode/OTUS/16_hw/project_List/build/_deps/googletest-subbuild/CMakeFiles/955981605225884a0f2ecc5ec161e700/googletest-populate-install.rule"
+		},
+		{
+			"file" : "C:/MyProjectsVSCode/OTUS/16_hw/project_List/build/_deps/googletest-subbuild/CMakeFiles/955981605225884a0f2ecc5ec161e700/googletest-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/MyProjectsVSCode/OTUS/16_hw/project_List/build/_deps/googletest-subbuild/CMakeFiles/955981605225884a0f2ecc5ec161e700/googletest-populate-patch.rule"
+		},
+		{
+			"file" : "C:/MyProjectsVSCode/OTUS/16_hw/project_List/build/_deps/googletest-subbuild/CMakeFiles/955981605225884a0f2ecc5ec161e700/googletest-populate-test.rule"
+		},
+		{
+			"file" : "C:/MyProjectsVSCode/OTUS/16_hw/project_List/build/_deps/googletest-subbuild/CMakeFiles/955981605225884a0f2ecc5ec161e700/googletest-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-populate"
+		],
+		"name" : "googletest-populate"
+	}
+}

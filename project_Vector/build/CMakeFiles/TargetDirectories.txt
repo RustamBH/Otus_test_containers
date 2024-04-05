@@ -1,0 +1,15 @@
+C:/MyProjectsVSCode/OTUS/16_hw/project_Vector/build/CMakeFiles/MyVector.dir
+C:/MyProjectsVSCode/OTUS/16_hw/project_Vector/build/CMakeFiles/test_myvector.dir
+C:/MyProjectsVSCode/OTUS/16_hw/project_Vector/build/CMakeFiles/INSTALL.dir
+C:/MyProjectsVSCode/OTUS/16_hw/project_Vector/build/CMakeFiles/ALL_BUILD.dir
+C:/MyProjectsVSCode/OTUS/16_hw/project_Vector/build/CMakeFiles/ZERO_CHECK.dir
+C:/MyProjectsVSCode/OTUS/16_hw/project_Vector/build/_deps/googletest-build/CMakeFiles/INSTALL.dir
+C:/MyProjectsVSCode/OTUS/16_hw/project_Vector/build/_deps/googletest-build/CMakeFiles/ALL_BUILD.dir
+C:/MyProjectsVSCode/OTUS/16_hw/project_Vector/build/_deps/googletest-build/googlemock/CMakeFiles/gmock.dir
+C:/MyProjectsVSCode/OTUS/16_hw/project_Vector/build/_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir
+C:/MyProjectsVSCode/OTUS/16_hw/project_Vector/build/_deps/googletest-build/googlemock/CMakeFiles/INSTALL.dir
+C:/MyProjectsVSCode/OTUS/16_hw/project_Vector/build/_deps/googletest-build/googlemock/CMakeFiles/ALL_BUILD.dir
+C:/MyProjectsVSCode/OTUS/16_hw/project_Vector/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir
+C:/MyProjectsVSCode/OTUS/16_hw/project_Vector/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir
+C:/MyProjectsVSCode/OTUS/16_hw/project_Vector/build/_deps/googletest-build/googletest/CMakeFiles/INSTALL.dir
+C:/MyProjectsVSCode/OTUS/16_hw/project_Vector/build/_deps/googletest-build/googletest/CMakeFiles/ALL_BUILD.dir

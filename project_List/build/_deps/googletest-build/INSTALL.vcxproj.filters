@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\MyProjectsVSCode\OTUS\16_hw\project_List\build\CMakeFiles\2ece0289c70bc1b8477cc186fb7fb2da\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6CBA5464-5EE9-3A16-8F09-5C0F8D26D958}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+^C:\MYPROJECTSVSCODE\OTUS\16_HW\PROJECT_LIST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/MyProjectsVSCode/OTUS/16_hw/project_List -BC:/MyProjectsVSCode/OTUS/16_hw/project_List/build --check-stamp-file C:/MyProjectsVSCode/OTUS/16_hw/project_List/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
