@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(GTestDownloadFetchContentCmake)
+project(project_List)
 
 #download googletest sources at configure time to build directory
 #build from sources at build time
