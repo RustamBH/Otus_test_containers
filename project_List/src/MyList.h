@@ -1,6 +1,19 @@
 #pragma once
 
+#include <iostream>
 #include <sstream>
+
+
+template <typename T>
+class Node {
+public:
+    T data;
+    Node* prev;
+    Node* next;        
+    Node(T data_ = T(), Node* prev_ = nullptr, Node* next_ = nullptr) : data{ data_ }, prev{ prev_ }, next{ next_ }{}
+};
+
+
 template <typename T>
 class MyList
 {
@@ -14,22 +27,13 @@ public:
     T getSize() const { return m_size; }
     void insert(size_t index, const T& value);    
     void erase(T value);
-    T& operator[](const T index) const;
+    T& operator[](size_t index) const;
     std::string print() const;
     bool is_empty() { return m_head == nullptr; };
     void pop_front();
     void pop_back();
 
 private:
-    template <typename T>
-    class Node {
-    public:
-        Node* prev;
-        Node* next;
-        T data;
-        Node(T data_ = T(), Node* prev_ = nullptr, Node* next_ = nullptr) : data{ data_ }, prev{ prev_ }, next{ next_ }{}
-    };
-
     size_t m_size;
     Node<T>* m_head;
     Node<T>* m_last;
@@ -145,14 +149,14 @@ void MyList<T>::erase(T value)
 }
 
 template<typename T>
-T& MyList<T>::operator[](const T index) const
+T& MyList<T>::operator[](size_t index) const
 {
     // TODO: insert return statement here    
     if (m_head == nullptr || index >= m_size) {        
         std::cout << "Take value is impossible. Index " << index << " out of range." << std::endl;
     }
     else {
-        int counter = 0;
+        size_t counter = 0;
         auto current = this->m_head;
         while (current != nullptr)
         {
