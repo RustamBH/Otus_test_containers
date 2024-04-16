@@ -155,18 +155,13 @@ T& MyList<T>::operator[](size_t index) const
     if (m_head == nullptr || index >= m_size) {        
         std::cout << "Take value is impossible. Index " << index << " out of range." << std::endl;
     }
-    else {
-        size_t counter = 0;
-        auto current = this->m_head;
-        while (current != nullptr)
-        {
-            if (counter == index) {
-                return current->data;
-            }
+    auto current = this->m_head;
+    while(index > 0){
+        if  (current->next != nullptr)
             current = current->next;
-            counter++;
-        }
+        index--;
     }
+    return current->data;	
 }
 
 template<typename T>
