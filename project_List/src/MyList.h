@@ -138,7 +138,7 @@ void MyList<T>::erase(T value)
     }
 
     if (!next_node) {        
-	throw std::invalid_argument("Invalid argument. This element does not exist!");
+	throw std::domain_error("This element does not exist!");
         //std::cout << "This element \"" << value << "\" does not exist" << std::endl;	
         //return;	    
     }
