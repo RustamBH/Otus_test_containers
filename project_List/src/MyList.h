@@ -91,8 +91,7 @@ void MyList<T>::insert(size_t index, const T& value)
 {
     if (is_empty()) return;
     if (m_head == nullptr || index > m_size) {        
-	throw std::invalid_argument("Insert is impossible. Out of range.");
-        return;
+	throw std::invalid_argument("Insert is impossible. Out of range.");        
     }
 
     if (index == 0) {
@@ -139,8 +138,9 @@ void MyList<T>::erase(T value)
     }
 
     if (!next_node) {        
-        std::cout << "This element \"" << value << "\" does not exist" << std::endl;
-        return;
+	throw std::invalid_argument("Invalid argument. This element does not exist!");
+        //std::cout << "This element \"" << value << "\" does not exist" << std::endl;	
+        //return;	    
     }
     current->next = next_node->next;
     next_node->next->prev = current;
