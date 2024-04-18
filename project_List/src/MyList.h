@@ -90,8 +90,8 @@ template<typename T>
 void MyList<T>::insert(size_t index, const T& value)
 {
     if (is_empty()) return;
-    if (m_head == nullptr || index > m_size) {
-        std::cout << "Insert is impossible. Out of range." << std::endl;
+    if (m_head == nullptr || index > m_size) {        
+	throw std::invalid_argument("Insert is impossible. Out of range.");
         return;
     }
 
